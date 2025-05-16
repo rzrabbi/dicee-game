@@ -4,33 +4,34 @@
     <meta charset="utf-8" />
     <title>Dicee</title>
     <link rel="stylesheet" href="css/styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="container">
-      <h1>Refresh Me</h1>
+      <h1>Roll the Dice, End the Debate</h1>
 
-      <!-- <div class="button">
-        <button class="btn refresh" onclick="refreshPage()">Refresh</button>
-        <button class="btn reset" onclick="resetPage()">Reset</button>
+      <div class="dice-row">
+        <div class="dice">
+          <p>Player 1</p>
+          <img class="img1" src="assets/dice/dice6.png" />
+        </div>
 
-      </div> -->
-
-      <div class="dice">
-        <p>Player 1</p>
-        <img class="img1" src="assets/dice/dice6.png" />
+        <div class="dice">
+          <p>Player 2</p>
+          <img class="img2" src="assets/dice/dice6.png"/>
+        </div>
       </div>
 
-      <div class="dice">
-        <p>Player 2</p>
-        <img class="img2" src="assets/dice/dice6.png" />
+      <div class="button">
+      <button class="roll-btn">Roll Now!</button>
+      <!-- <button class="btn reset" onclick="resetPage()">Reset</button> -->
+
       </div>
     </div>
 
-    <footer>🎲 Dicee Game 🎲</footer>
+    <footer>🎲 Zero Argue 🎲</footer>
     <script src="js/script.js"></script>
   </body>
 </html>
