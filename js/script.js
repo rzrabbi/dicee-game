@@ -4,17 +4,17 @@ console.log("Player 1: " + randomNumber1);
 
 if (randomNumber1 === 1){
 
-        document.querySelector(".img1").setAttribute("src", "./images/dice1.png");;
+        document.querySelector(".img1").setAttribute("src", "/assets/dice/dice1.png");;
     } else if (randomNumber1 === 2) {
-        document.querySelector(".img1").setAttribute("src", "./images/dice2.png");
+        document.querySelector(".img1").setAttribute("src", "/assets/dice/dice2.png");
     } else if (randomNumber1 === 3){
-        document.querySelector(".img1").setAttribute("src", "./images/dice3.png");   
+        document.querySelector(".img1").setAttribute("src", "/assets/dice/dice3.png");   
     } else if (randomNumber1 === 4){
-        document.querySelector(".img1").setAttribute("src", "./images/dice4.png");
+        document.querySelector(".img1").setAttribute("src", "/assets/dice/dice4.png");
     } else if (randomNumber1 === 5){
-        document.querySelector(".img1").setAttribute("src", "./images/dice5.png");
+        document.querySelector(".img1").setAttribute("src", "/assets/dice/dice5.png");
     } else if (randomNumber1 === 6){
-        document.querySelector(".img1").setAttribute("src", "./images/dice6.png");
+        document.querySelector(".img1").setAttribute("src", "/assets/dice/dice6.png");
     }
 
 // For Player 2
@@ -23,17 +23,17 @@ var randomNumber2 = Math.floor((Math.random() * 6) + 1);
 console.log("Player 2: " + randomNumber2);
 
 if (randomNumber2 === 1){
-        document.querySelector(".img2").setAttribute("src", "./images/dice1.png");;
+        document.querySelector(".img2").setAttribute("src", "/assets/dice/dice1.png");;
     } else if (randomNumber2 === 2) {
-        document.querySelector(".img2").setAttribute("src", "./images/dice2.png");
+        document.querySelector(".img2").setAttribute("src", "/assets/dice/dice2.png");
     } else if (randomNumber2 === 3){
-        document.querySelector(".img2").setAttribute("src", "./images/dice3.png");   
+        document.querySelector(".img2").setAttribute("src", "/assets/dice/dice3.png");   
     } else if (randomNumber2 === 4){
-        document.querySelector(".img2").setAttribute("src", "./images/dice4.png");
+        document.querySelector(".img2").setAttribute("src", "/assets/dice/dice4.png");
     } else if (randomNumber2 === 5){
-        document.querySelector(".img2").setAttribute("src", "./images/dice5.png");
+        document.querySelector(".img2").setAttribute("src", "/assets/dice/dice5.png");
     } else if (randomNumber2 === 6){
-        document.querySelector(".img2").setAttribute("src", "./images/dice6.png");
+        document.querySelector(".img2").setAttribute("src", "/assets/dice/dice6.png");
     }
 
 //Declaring Winner
