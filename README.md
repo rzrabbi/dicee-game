@@ -1,3 +1,3 @@
-# Dicee Game
+# Zero Argue
 
-A two-player dice game built using HTML, CSS, and JavaScript, utilizing JavaScript DOM manipulation, as a practice project. 
+Settle any disagreement with a quick roll of the dice! Zero Argue is a simple two-player game where each player rolls a virtual dice. The player with the higher number wins the round, ending the debate with a bit of chance.
